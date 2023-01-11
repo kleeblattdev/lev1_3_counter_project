@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    background: linear-gradient(45deg, rgba(218,225,236,1) 0%, rgba(25,72,148,1) 48%, rgba(5,14,29,1) 100%);
+}
+
+fieldset{
+    padding: 100px 150px;
+}
+
+fieldset section{
+    display: flex;
+}
+
+button{
+    display: block;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#output{
+    text-align: center;
+    color: gold;
+    font-size: 24px;
+    padding: 30px;
+}
